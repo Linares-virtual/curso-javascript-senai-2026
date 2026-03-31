@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body
+    style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: sans-serif; background-color: #f4f4f4;">
+
+    <div id="caixa" style="border: 2px solid black; padding: 25px; background-color:
+    white; border-radius: 10px; text-align: center; width: 320px;">
+
+        <h1 style="margin-top: 0;">Lista de Tarefas</h1>
+
+        <input type="text" id="input-tarefa" placeholder="O que fazer?" style="padding: 8px; width: 180px;">
+        <button id="botao-adicionar" style="padding: 8px; cursor: pointer;">Adicionar</button>
+
+        <p style="font-weight: bold;">Total: <span id="contador">0</span></p>
+
+        <button id="botao-limpar"
+            style="font-size: 11px; cursor: pointer; background: #eee; border: 1px solid #ccc; padding: 5px;">Limpar
+            Tudo</button>
+
+        <ul id="lista" style="text-align: left; padding: 10px 0; list-style-position: inside;">
+        </ul>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
