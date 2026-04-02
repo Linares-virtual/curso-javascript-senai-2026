@@ -1,3 +1,0 @@
-"b605a85583ac4057349ab91c8f72c575";
-"https://api.themoviedb.org/3";
-"https://image.tmdb.org/t/p/w500";
