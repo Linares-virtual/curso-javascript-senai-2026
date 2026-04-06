@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Bonificação</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadora de Bonificação</h1>
+        
+        <div class="form-group">
+            <label for="nome">Nome do Vendedor</label>
+            <input type="text" id="nome" placeholder="Ex: João Silva">
+        </div>
+
+        <div class="form-group">
+            <label for="nivel">Nível do Vendedor</label>
+            <select id="nivel">
+                <option value="I">Nível I</option>
+                <option value="II">Nível II</option>
+                <option value="III">Nível III</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="vendas">Total de Vendas (R$)</label>
+            <input type="number" id="vendas" placeholder="0.00">
+        </div>
+
+        <button onclick="calcularBonificacao()">Calcular Resultado</button>
+
+        <div id="resultado" class="resultado-box hidden">
+            <p id="msgBonificacao"></p>
+            <p id="msgAlerta" class="alerta"></p>
+        </div>
+    </div>
+
+</body>
+</html>
